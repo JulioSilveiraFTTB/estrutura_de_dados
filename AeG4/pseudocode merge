@@ -1,0 +1,56 @@
+inicio
+
+  var numeros: 3,9,8,7,6,2,1;
+
+  mergeSort tamanho numeros, numeros
+
+  enquanto x for divisivel por numeros, faça
+  mostrar x + var numeros
+  fim enquanto
+
+  a variavel elementos do tipo numero é 1
+  as variaveis inicio, meio e end são do tipo numero 
+
+  enquanto elementos for menor que o tamanho faça
+  inicio é igual a zero
+
+  enquanto as variaveis inicio somado com elemento forem menor que tamanho
+  meio é inicio somado com elementos
+  end é inicio somado com elementos multiplicado por dois.
+
+  se end é maior que tamanho
+  end é igual a tamanho
+
+  intercala-se vetor (inicio, meio e end)
+
+  inicio é igual ao end
+  fim se
+
+  elementos é igual a elementos multiplicado por dois
+
+  fim enquanto
+  fim enquanto
+
+  variavel do tipo numero é novo vetor, igual a nova variavel do tipo numero que é o fim e o inicio.
+  variavel do tipo numero i é o inicio
+  variavel do tipo numero m é o meio 
+  variavel do tipo numero pos é 0
+
+  enquanto i for menor que o meio e m for menor que o fim
+  se o vetor i é menor ou igual ao vetor m 
+  a pos do novo vetor é igual a i.
+  a pos é igual a pos somado a 1
+  i é igual a i somado a 1
+  fim enquanto
+
+  enquanto m for menor que fim
+
+  a pos do novo vetor vai ser a mesma coisa que o m do antigo vetor
+  a pos é igual a pos somado a 1
+  o m é igual ao m somado a 1
+
+  enquanto a posição for 0, o i for o inicio e o i for menor que o fim, soma-se i e pos um por um faça
+  a i do antigo vetor é igual a pos do novo vetor
+  fim enquanto
+  
+fim
